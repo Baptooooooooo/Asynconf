@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulateur de taux d'emprunt</title>
+</head>
+
+<body>
+
+<div class="formulaire">
+    <div class="case">Type de voiture🚘</div>
+    <select name="typev" id="typevoiture">
+        <option value="" selected>Faites votre choix</option>
+        <option value="Citadine">Citadine</option>
+        <option value="Cabriolet">Cabriolet</option>
+        <option value="Berline">Berline</option>
+        <option value="SUV">SUV/4X4</option>
+    </select>
+    
+    <div class="case">Type de carburant⛽</div>
+    <select name="typev" id="typecarburant">
+        <option value="" selected>Faites votre choix</option>
+        <option value="Essence">Essence</option>
+        <option value="Electrique">Electrique</option>
+        <option value="Gaz">Gaz</option>
+        <option value="Diesel">Diesel</option>
+        <option value="Hybride">Hybride</option>
+    </select>
+    
+    <div class="case">Nombre de km </div>
+    <select name="typev" id="nmbdekm">
+        <option value="" selected>Faites votre choix</option>
+        <option value="5-10">5-10km</option>
+        <option value="10-15">10-15km</option>
+        <option value="20-25">20-25km</option>
+        <option value="25-30">25-30km</option>
+    </select>
+    
+    <div class="case">Année de la voiture 🕰</div>
+    <select name="typev" id="annerdevoiture">
+        <option value="" selected>Faites votre choix</option>
+        <option value="1960-1970">1960-1970</option>
+        <option value="1970-1980">1970-1980</option>
+        <option value="1990-2000">1990-2000</option>
+        <option value=">2010">>2010</option>
+    </select>
+    
+    <div class="case">Nombre de passagers 🙍‍♂️</div>
+    <select name="typev" id="nombrepasager">
+        <option value="" selected>Faites votre choix</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+
+    <button class="buttonvalide" onclick="valider()">
+        Valider
+    </button>
+</div>
+
+<div class="reponce ">
+    <h1>la reponce est </h1>
+    <div class="case" id="lareponce">
+    </div>
+</div>
+
+<script defer src="script.js"></script>
+
+</body>
+</html>
